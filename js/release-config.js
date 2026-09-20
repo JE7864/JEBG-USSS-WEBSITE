@@ -24,12 +24,12 @@ window.JEBG_RELEASES = {
     releaseNotesUrl: "https://github.com/JE7864/JEBG-USSS-WEBSITE/releases/tag/basic-v3.7.1"
   },
   visual: {
-    enabled: false,
-    version: "v4.x.x",
-    releaseDate: "",
-    fileSize: "",
-    sha256: "",
-    downloadUrl: "",
-    releaseNotesUrl: ""
+    enabled: true,
+    version: "v3.7.1",
+    releaseDate: "2026-09-21",
+    fileSize: "56.9 MB",
+    sha256: "19a7513431400d9b46dc206a4d9144240038a8859fed35767a5ebb6220802a4c",
+    downloadUrl: "https://github.com/JE7864/JEBG-USSS-WEBSITE/releases/download/visual-v3.7.1/JEBG-USSS-Visual-v3.7.1-Setup.exe",
+    releaseNotesUrl: "https://github.com/JE7864/JEBG-USSS-WEBSITE/releases/tag/visual-v3.7.1"
   }
 };
