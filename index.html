@@ -16,7 +16,7 @@
   <header class="nav" id="top">
     <a class="brand" href="#top" aria-label="JEBG home"><span class="brand-mark">JEBG</span><span>UNIT SECURITY &amp; SURVEILLANCE SYSTEM</span></a>
     <nav class="nav-links" aria-label="Main navigation">
-      <a href="#alarms">Alarms</a><a href="#analytics">Analytics</a><a href="#studio">Visual Studio</a><a href="#demo">Demo</a><a href="#architecture">Platform</a>
+      <a href="#industries">Industries</a><a href="#alarms">Alarms</a><a href="#analytics">Analytics</a><a href="#studio">Visual Studio</a><a href="#editions">Editions</a><a href="#demo">Demo</a>
     </nav>
     <a class="btn btn-small" href="#contact">Request a demo</a>
     <button class="menu" aria-label="Open navigation" aria-expanded="false">☰</button>
@@ -36,6 +36,19 @@
         <div class="screen-frame hero-screen"><div class="screen-top"><i></i><i></i><i></i><span>JEBG USSS • ANNUNCIATOR</span></div><img src="assets/images/alarm-hover-trend.png" alt="JEBG USSS alarm annunciator with local live trend" /></div>
         <div class="float-card fc1"><span class="pulse"></span><div><b>Alarm Intelligence</b><small>Context at the point of action</small></div></div>
         <div class="float-card fc2"><b>LIVE TREND</b><span>Process context without leaving the alarm</span></div>
+      </div>
+    </section>
+
+
+    <section class="section industries" id="industries">
+      <div class="section-head reveal"><div><div class="eyebrow"><span></span> INDUSTRIAL APPLICATIONS</div><h2>One intelligence layer across diverse facilities.</h2></div><p>JEBG USSS is designed for supervisory alarm awareness and analytics across power generation, renewables, oil &amp; gas and process industries.</p></div>
+      <div class="industry-grid reveal">
+        <article><div class="industry-art thermal"></div><b>Thermal Power</b><span>Boiler, turbine, balance-of-plant and auxiliaries.</span></article>
+        <article><div class="industry-art gas"></div><b>Gas Turbine / CCGT</b><span>Gas turbines, HRSG, steam cycle and common systems.</span></article>
+        <article><div class="industry-art solar"></div><b>Solar Power</b><span>Plant-wide monitoring and analytical visibility.</span></article>
+        <article><div class="industry-art wind"></div><b>Wind Energy</b><span>Distributed asset awareness and event analysis.</span></article>
+        <article><div class="industry-art refinery"></div><b>Oil &amp; Gas / Refinery</b><span>Process alarm context for complex operating facilities.</span></article>
+        <article><div class="industry-art process"></div><b>Process Industries</b><span>Flexible monitoring for critical industrial operations.</span></article>
       </div>
     </section>
 
@@ -65,6 +78,28 @@
       <div class="screen-frame studio-screen reveal delay-1"><img src="assets/images/visual-studio.png" alt="JEBG Visual Alarm Studio graph simulation" /></div>
     </section>
 
+
+    <section class="section editions" id="editions">
+      <div class="section-head reveal"><div><div class="eyebrow"><span></span> PRODUCT EDITIONS &amp; DOWNLOADS</div><h2>Choose the JEBG USSS edition for your engineering needs.</h2></div><p>Basic and Visual are maintained as independent release channels, so each edition can be upgraded without changing the website layout.</p></div>
+      <div class="edition-grid">
+        <article class="edition-card reveal">
+          <div class="edition-top"><span class="edition-kicker">JEBG USSS</span><h3>Basic</h3><p>Powerful alarm intelligence with straightforward standard alarm engineering.</p></div>
+          <ul><li>Alarm monitoring &amp; annunciation</li><li>Advanced analytics</li><li>PI System integration</li><li>Simulation, history &amp; acknowledgement</li><li>Audio / speech and operational context</li></ul>
+          <div class="release-box"><span>LATEST RELEASE</span><b id="basicVersion">Not published yet</b><small id="basicMeta">Add a Basic release when your installer is ready.</small></div>
+          <a class="btn download-btn is-disabled" id="basicDownload" href="#" aria-disabled="true">Basic setup coming soon</a>
+          <a class="release-link" id="basicNotes" href="#" hidden>Release notes</a>
+        </article>
+        <article class="edition-card visual-edition reveal delay-1">
+          <div class="edition-badge">ADVANCED ENGINEERING</div><div class="edition-top"><span class="edition-kicker">JEBG USSS</span><h3>Visual</h3><p>Advanced graphical alarm engineering built on the common JEBG USSS operational platform.</p></div>
+          <ul><li>Visual Alarm Studio</li><li>Multi-tag alarm logic</li><li>Logic gates &amp; M-out-of-N voting</li><li>TON / TOF timers &amp; hysteresis</li><li>Offline / live visual simulation</li></ul>
+          <div class="release-box"><span>LATEST RELEASE</span><b id="visualVersion">Not published yet</b><small id="visualMeta">Add a Visual release when your installer is ready.</small></div>
+          <a class="btn download-btn is-disabled" id="visualDownload" href="#" aria-disabled="true">Visual setup coming soon</a>
+          <a class="release-link" id="visualNotes" href="#" hidden>Release notes</a>
+        </article>
+      </div>
+      <div class="release-maintenance reveal"><b>Future-version ready</b><p>When a new Basic or Visual installer is released, update only the small <code>release-config.js</code> file. No redesign of this page is required. Each channel has its own version, date, size, checksum, download URL and release-notes URL.</p></div>
+    </section>
+
     <section class="section demo" id="demo">
       <div class="section-head reveal"><div><div class="eyebrow"><span></span> PRODUCT DEMONSTRATION</div><h2>Watch JEBG USSS in action.</h2></div><p>Standard alarm simulation demonstrates the alarm lifecycle without writing to the plant PI system.</p></div>
       <div class="video-shell reveal"><video controls preload="metadata" poster="assets/images/alarm-hover-trend.png"><source src="assets/videos/standard-simulation.mp4" type="video/mp4">Your browser does not support HTML5 video.</video><div class="video-meta"><span>JEBG USSS 4.0</span><b>Standard Alarm Simulation</b><small>Simulation • Annunciation • Alarm lifecycle</small></div></div>
@@ -78,10 +113,35 @@
 
     <section class="section roles reveal"><div class="role-head"><span>BUILT FOR THE PEOPLE WHO RUN THE PLANT</span><h2>One operational picture. Multiple perspectives.</h2></div><div class="role-grid"><article><b>Operators</b><p>Immediate alarm context and live process awareness.</p></article><article><b>Shift In-Charges</b><p>Prioritization, escalation visibility and event review.</p></article><article><b>C&amp;I / Engineering</b><p>Alarm configuration, visual logic and simulation.</p></article><article><b>O&amp;M / Reliability</b><p>Historical analytics and event investigation.</p></article></div></section>
 
-    <section class="section contact reveal" id="contact"><div class="contact-inner"><div><div class="eyebrow"><span></span> JEBG UNIT SECURITY &amp; SURVEILLANCE SYSTEM</div><h2>Upgrade your facility with intelligent alarm monitoring and advanced analytics.</h2><p>Request a product demonstration and explore how JEBG USSS can support operator awareness, engineering analysis and plant-wide alarm intelligence.</p></div><div class="contact-actions"><a class="btn" href="mailto:jamilaexim786vector@gmail.com">Request demonstration</a><a class="contact-link" href="mailto:jamilaexim786vector@gmail.com">jamilaexim786vector@gmail.com</a><a class="contact-link" href="https://wa.me/918976726501" target="_blank" rel="noopener">WhatsApp: +91 8487098639</a></div></div></section>
+    <section class="section contact reveal" id="contact"><div class="contact-inner"><div><div class="eyebrow"><span></span> JEBG UNIT SECURITY &amp; SURVEILLANCE SYSTEM</div><h2>Upgrade your facility with intelligent alarm monitoring and advanced analytics.</h2><p>Request a product demonstration and explore how JEBG USSS can support operator awareness, engineering analysis and plant-wide alarm intelligence.</p></div><div class="contact-actions"><a class="btn" href="mailto:jamilaexim786vector@gmail.com">Request demonstration</a><a class="contact-link" href="mailto:jamilaexim786vector@gmail.com">jamilaexim786vector@gmail.com</a><a class="contact-link" href="https://wa.me/918976726501" target="_blank" rel="noopener">WhatsApp: +91 84 8709 8639</a><a class="contact-link" href="tel:+916351060318">Phone: +91 63510 60318</a></div></div></section>
+
+    <section class="section usage-request reveal" id="usage-request">
+      <div class="usage-request-inner">
+        <div>
+          <div class="eyebrow"><span></span> REQUEST JEBG USAGE</div>
+          <h2>Interested in using JEBG USSS at your facility?</h2>
+          <p>Submit a usage request for evaluation, pilot deployment, implementation discussions or product support. Basic and Visual installer downloads remain independently available in the Downloads section above.</p>
+        </div>
+        <div class="usage-request-action">
+          <a class="btn" id="usageRequestButton" href="#" target="_blank" rel="noopener">Request JEBG Usage</a>
+          <small id="usageRequestHint">Opens the JEBG usage request form in a new tab.</small>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer><a class="brand" href="#top"><span class="brand-mark">JEBG</span><span>UNIT SECURITY &amp; SURVEILLANCE SYSTEM</span></a><p>Alarm Intelligence • Advanced Analytics • Operational Awareness</p><span>© <span id="year"></span> JEBG / Jamila Exim</span></footer>
+  <section class="developer-signature" aria-label="Developer credentials">
+    <div class="developer-signature-inner">
+      <span class="developer-kicker">DEVELOPED BY</span>
+      <strong>Shekh Aman</strong>
+      <span>Developer, JEBG Unit Security &amp; Surveillance System</span>
+      <span>Industrial AI &amp; Digital Technologies</span>
+      <span>IIT Bombay Alumnus</span>
+    </div>
+  </section>
+
+  <footer><a class="brand" href="#top"><span class="brand-mark">JEBG</span><span>UNIT SECURITY &amp; SURVEILLANCE SYSTEM</span></a><p>Alarm Intelligence • Advanced Analytics • Operational Awareness</p><div class="visitor-count" title="Public page-view counter"><span>Site Visits</span><img src="https://hits.sh/usss.jamilaexim.com.svg?label=&color=57d3e4&labelColor=041720" alt="JEBG USSS site visit count" loading="lazy"></div><span>© <span id="year"></span> JEBG / Jamila Exim</span></footer>
+  <script src="js/release-config.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
