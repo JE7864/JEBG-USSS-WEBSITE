@@ -15,13 +15,13 @@ window.JEBG_SITE_CONFIG = {
 
 window.JEBG_RELEASES = {
   basic: {
-    enabled: false,
-    version: "v3.x.x",
-    releaseDate: "",
-    fileSize: "",
-    sha256: "",
-    downloadUrl: "",
-    releaseNotesUrl: ""
+    enabled: true,
+    version: "v3.7.1",
+    releaseDate: "2026-09-21",
+    fileSize: "56.9 MB",
+    sha256: "39215540f14917ccc8df67fa616e74bb0a97fd744ca9fef999c94fd51fd73575",
+    downloadUrl: "https://github.com/JE7864/JEBG-USSS-WEBSITE/releases/download/basic-v3.7.1/JEBG-USSS-Basic-v3.7.1-Setup.exe",
+    releaseNotesUrl: "https://github.com/JE7864/JEBG-USSS-WEBSITE/releases/tag/basic-v3.7.1"
   },
   visual: {
     enabled: false,
