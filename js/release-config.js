@@ -28,7 +28,7 @@ window.JEBG_RELEASES = {
     version: "v3.7.1",
     releaseDate: "2026-09-21",
     fileSize: "56.9 MB",
-    sha256: "19a7513431400d9b46dc206a4d9144240038a8859fed35767a5ebb6220802a4c",
+    sha256: "02a25ae86f54276adf72fbf748031cea2907998ec7a4ef9949758bc35a27fde7",
     downloadUrl: "https://github.com/JE7864/JEBG-USSS-WEBSITE/releases/download/visual-v3.7.1/JEBG-USSS-Visual-v3.7.1-Setup.exe",
     releaseNotesUrl: "https://github.com/JE7864/JEBG-USSS-WEBSITE/releases/tag/visual-v3.7.1"
   }
