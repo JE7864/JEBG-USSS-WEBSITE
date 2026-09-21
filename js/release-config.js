@@ -19,7 +19,7 @@ window.JEBG_RELEASES = {
     version: "v3.7.1",
     releaseDate: "2026-09-21",
     fileSize: "56.9 MB",
-    sha256: "39215540f14917ccc8df67fa616e74bb0a97fd744ca9fef999c94fd51fd73575",
+    sha256: "1b2feb70aaaf1240dad6c46ef6b43a2620b3cbb7a7e3761de76fe37822280c5a",
     downloadUrl: "https://github.com/JE7864/JEBG-USSS-WEBSITE/releases/download/basic-v3.7.1/JEBG-USSS-Basic-v3.7.1-Setup.exe",
     releaseNotesUrl: "https://github.com/JE7864/JEBG-USSS-WEBSITE/releases/tag/basic-v3.7.1"
   },
