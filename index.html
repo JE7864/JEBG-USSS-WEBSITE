@@ -9,8 +9,30 @@
   <link rel="canonical" href="https://usss.jamilaexim.com/" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=20261108-footer2" />
+<style id="site-footer-style">
+/* Footer layout is delivered with this page to keep its markup and styling in sync. */
+#site-footer{display:block;width:calc(100% - 64px);max-width:1500px;margin:45px auto 0;padding:27px 0;border-top:1px solid #223c4e;color:#829eb2;font:10px/1.65 Inter,Arial,sans-serif}
+#site-footer .footer-content{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:18px;min-width:0}
+#site-footer .footer-content p{margin:0}
+#site-footer .brand{min-width:0;font-size:11px;gap:14px;white-space:normal}
+#site-footer .brand>span:last-child{display:block;line-height:1.5;overflow-wrap:anywhere}
+#site-footer .brand-mark{flex-shrink:0;font-size:11px;padding:6px 9px}
+#site-footer .footer-metrics{display:block;width:100%;min-width:0;margin:22px 0 0;padding:15px 0 0;border:0;border-top:1px solid #28485c;border-radius:0;background:transparent;color:#aedce6}
+#site-footer .footer-metrics[hidden]{display:none}
+#site-footer .activity-grid{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:0;overflow:visible}
+#site-footer .activity-cell{min-width:0;padding:0 10px;text-align:center}
+#site-footer .activity-cell+.activity-cell{border-left:1px solid #28485c}
+#site-footer .activity-cell>span{display:block;padding:0;border:0;font:600 15px/1.5 Manrope,Arial,sans-serif;font-variant-numeric:tabular-nums;letter-spacing:0;overflow-wrap:anywhere}
+#site-footer .activity-cell>.metric-rate{color:#8ae0bd;font-weight:500}
+#site-footer .activity-cell>span::before,#site-footer .activity-cell>span::after{content:none}
+#site-footer .activity-heading,#site-footer .activity-cell>small{display:none}
+#site-footer .activity-cell>span:focus-visible{outline:2px solid #4ad9eb;outline-offset:4px;border-radius:2px}
+@media(max-width:1000px){#site-footer .activity-grid{grid-template-columns:repeat(8,minmax(92px,1fr));overflow-x:auto;padding-bottom:10px;overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:#31586d #071622}#site-footer .activity-cell{padding:0 8px}}
+@media(max-width:700px){#site-footer{width:calc(100% - 36px);margin-top:33px}#site-footer .footer-content{gap:18px}}
+@media(max-width:600px){#site-footer .footer-metrics{padding:14px 0 0;margin-top:20px}#site-footer .activity-grid{grid-template-columns:repeat(8,minmax(88px,1fr))}#site-footer .activity-cell>span{font-size:14px}}
+</style>
 </head>
 <body>
   <div class="noise"></div>
@@ -140,8 +162,8 @@
     </div>
   </section>
 
-  <footer><div class="footer-content"><a class="brand" href="#top"><span class="brand-mark">JEBG</span><span>UNIT SECURITY &amp; SURVEILLANCE SYSTEM</span></a><p>Alarm Intelligence • Advanced Analytics • Operational Awareness</p><span>© <span id="year"></span> JEBG / Jamila Exim</span></div><div class="footer-metrics" id="footer-metrics" role="group" aria-label="Website metrics" hidden><div class="activity-grid"><div class="activity-cell"><span id="usss-metric-visits" role="group" tabindex="0" aria-label="Recorded page visits" title="Recorded page visits">—</span></div><div class="activity-cell"><span id="usss-metric-daily" role="group" tabindex="0" aria-label="Average page visits per IST calendar day" title="Average page visits per IST calendar day">—</span></div><div class="activity-cell"><span id="usss-metric-requests" role="group" tabindex="0" aria-label="Visits with a usage-request link click" title="Visits with a usage-request link click">—</span></div><div class="activity-cell"><span id="usss-metric-request-rate" class="metric-rate" role="group" tabindex="0" aria-label="Usage-request link click rate" title="Usage-request link click rate">—</span></div><div class="activity-cell"><span id="usss-metric-demos" role="group" tabindex="0" aria-label="Visits with a product demo play" title="Visits with a product demo play">—</span></div><div class="activity-cell"><span id="usss-metric-demo-rate" class="metric-rate" role="group" tabindex="0" aria-label="Demo play rate" title="Demo play rate">—</span></div><div class="activity-cell"><span id="usss-metric-engaged" role="group" tabindex="0" aria-label="Visits reaching 75% page depth" title="Visits reaching 75% page depth">—</span></div><div class="activity-cell"><span id="usss-metric-engagement-rate" class="metric-rate" role="group" tabindex="0" aria-label="Engagement rate" title="Engagement rate">—</span></div></div></div></footer>
+  <footer id="site-footer"><div class="footer-content"><a class="brand" href="#top"><span class="brand-mark">JEBG</span><span>UNIT SECURITY &amp; SURVEILLANCE SYSTEM</span></a><p>Alarm Intelligence • Advanced Analytics • Operational Awareness</p><span>© <span id="year"></span> JEBG / Jamila Exim</span></div><div class="footer-metrics" id="footer-metrics" role="group" aria-label="Website metrics" hidden><div class="activity-grid"><div class="activity-cell"><span id="usss-metric-visits" role="group" tabindex="0" aria-label="Recorded page visits" title="Recorded page visits">—</span></div><div class="activity-cell"><span id="usss-metric-daily" role="group" tabindex="0" aria-label="Average page visits per IST calendar day" title="Average page visits per IST calendar day">—</span></div><div class="activity-cell"><span id="usss-metric-requests" role="group" tabindex="0" aria-label="Visits with a usage-request link click" title="Visits with a usage-request link click">—</span></div><div class="activity-cell"><span id="usss-metric-request-rate" class="metric-rate" role="group" tabindex="0" aria-label="Usage-request link click rate" title="Usage-request link click rate">—</span></div><div class="activity-cell"><span id="usss-metric-demos" role="group" tabindex="0" aria-label="Visits with a product demo play" title="Visits with a product demo play">—</span></div><div class="activity-cell"><span id="usss-metric-demo-rate" class="metric-rate" role="group" tabindex="0" aria-label="Demo play rate" title="Demo play rate">—</span></div><div class="activity-cell"><span id="usss-metric-engaged" role="group" tabindex="0" aria-label="Visits reaching 75% page depth" title="Visits reaching 75% page depth">—</span></div><div class="activity-cell"><span id="usss-metric-engagement-rate" class="metric-rate" role="group" tabindex="0" aria-label="Engagement rate" title="Engagement rate">—</span></div></div></div></footer>
   <script src="js/release-config.js"></script>
   <script src="js/app.js"></script>
-<script src="js/footer-metrics.js"></script></body>
+<script src="js/footer-metrics.js?v=20261108-footer2"></script></body>
 </html>
