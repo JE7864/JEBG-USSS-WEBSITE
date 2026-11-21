@@ -9,7 +9,7 @@
 window.JEBG_SITE_CONFIG = {
   usageRequest: {
     enabled: true,
-    url: "https://docs.google.com/forms/d/e/1FAIpQLSeDdvuy310q08e-ayNKGZ4A54Lhy43o40xm-oTtHZheKhRaCQ/viewform?usp=sharing&ouid=103375098158148886013"
+    url: "#contact"
   }
 };
 
