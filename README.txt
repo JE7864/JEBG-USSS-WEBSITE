@@ -41,10 +41,12 @@ The new Industries section uses lightweight stylized CSS artwork so there are no
 
 SHARED CUSTOMER ENQUIRY FORM
 ----------------------------
-Request a demo, Discuss your plant integration and Request JEBG Usage open the embedded #contact form, with JEBG USSS preselected.
+Request a demo and Discuss your plant integration open the embedded #contact form, with JEBG USSS preselected.
 
 The customer fields, consent wording and POST receipt flow match JE7864/JEBG-MAIN-WEBSITE. js/enquiry.js reads the main site's public backend-config.json and retains the same current Apps Script submission endpoint as fallback. No new spreadsheet or Apps Script deployment is required.
 
 The endpoint receives a customer JSON payload in the form-encoded payload field, opens its confirmation in a new tab, and saves to the existing common Customer Enquiries sheet. A save is confirmed only when the backend receipt displays a reference number. Identical retries from the same form retain the request ID.
 
 Downloads, product media, main theme and footer metrics are independent of the enquiry form. The usageRequest URL in js/release-config.js is now #contact. Keep new enquiry styles scoped in css/enquiry.css.
+
+The duplicate Request JEBG Usage section has been removed. International experience flags in the developer signature reuse the assets from JEBG AISA.
